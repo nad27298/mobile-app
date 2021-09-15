@@ -1,55 +1,29 @@
-Code được coi là sạch nếu mọi người trong team có thể dễ dàng đọc hiểu nó. 
-Clean code đơn giản là: Dễ đọc, dễ thay đổi, dễ mở rộng và dễ bảo trì.
 
-![1520178736603](https://git.miagi-so.net/uploads/-/system/personal_snippet/22/dd64f8d3cef22b3f4e6c0805fdc206c0/1520178736603.jpeg)
 
-## Các nguyên tắc chung
-### Tuân theo các quy ước tiêu chuẩn 
-Mỗi nhóm khi làm việc phải tuân theo các quy ước tiêu chuẩn chung (cho mọi ngành nghề).  
-Các tiêu chuẩn coding sẽ quy định các nội dung như: cách khai báo biến; cách đặt tên lớp, phương thức và biến; đặt dấu mở ngoặc ở đâu,...
+# Phân biệt giữa Native App, Cross Platform và Hybrid
 
-Tài liệu coding conventions là không cần thiết, chúng sẽ được thể hiện ở trong code.  
-Tất cả thành viên trong nhóm đều cần tuân thủ các quy tắc.
 
-Một số công cụ check coding conventions:
-- Ruby: rubocop
+Native App, Cross Platform và Hybrid App là 3 nền tảng công nghệ sở hữu nhiều ưu điểm tuyệt vời. Trở thành 3 loại apps được đánh giá cao để thiết kế trên nền tảng mobile. Tuy cùng phục vụ cho lĩnh vực di động nhưng giữa 3 ứng dụng này vẫn có sự khác biệt. Vậy điểm khác biệt đó là gì? Chúng ta hãy cùng đi sâu khám phá trong bài viết dưới đây.
+
+## Native App, Cross Platform và Hybrid App - Khái quát nhanh
+
+**Native App** (ứng dụng gốc) là một loại ứng dụng được tạo ra từ loại ngôn ngữ lập trình gốc, dành riêng cho một nền tảng cụ thể nhất định nào đó. Ví dụ nền tảng iOS được viết và sử dụng bằng ngôn ngữ Obiective C hoặc Swift, với Android là Java hoặc Kotlin.
+
+**Cross Platform** hay còn được gọi là *Multi-platform (Đa Nền Tảng)*. Công nghệ này được viết từ 01 bộ code trung gian (React Native, Flutter, ..). Coder sẽ thực hiện triển khai code 1 lần, sau đó biên dịch nó ra thành 2 bản dành cho 2 hệ điều hành riêng biệt: iOS và Android.
+
+**Hybrid App** còn được biết đến với tên thường gọi: Ứng dụng Lai. Nền tảng Ứng dụng này được hình thành từ 3 loại công nghệ chính là HTML, CSS và JavaScript. Hybrid App có thể hiểu là một website rỗng được đặt vào trong một Native Container và được kết nối với phần cứng thiết bị.
+
+## Tìm hiểu về Native App
+
+### Ưu điểm của Navive App.
+**Native App** sở hữu nhiều ưu điểm vượt trội mà những loại app mobile không thể có:
+* Performance của ứng dụng native hoạt động nhanh, hiệu quả, bền bỉ và ít lỗi hơn hầu hết các ứng dụng khác.
+* Cho phép tận dụng đầy đủ các lợi thế của tính năng tiện ích của thiết bị sẵn có như máy ảnh, GPS, lịch, micrô và các chức năng khác của điện thoại thông minh.
+* Bảo mật dữ liệu cao, có thể dễ dàng hơn nhiều để làm cho Native app an toàn.
+* Có thể hoạt động ở chế độ ngoại tuyến, đây vẫn là một vấn đề đối với các Hybrid app.
+* Native App cung cấp đến người dùng những trải nghiệm tốt nhất. Bởi app duy trì thiết kế giao diện người dùng trên mỗi hệ điều hành.
+* Bản build gọn nhẹ, ít tốn bộ nhớ của device, phân phối Native App dễ dàng lên kho ứng dụng của hệ điều hành.
+
+
+- PHP: phpcsf
 - PHP: phpcs
-- JS: ESlint
-
-![06f0b6de-6490-4f45-b91e-601c2a04da67](https://git.miagi-so.net/uploads/-/system/personal_snippet/22/1ec20df220b87520b46d06233bc8b343/06f0b6de-6490-4f45-b91e-601c2a04da67.jpeg)
-
-https://git.miagi-so.net/vinhvd/guidelines
-
-### Giữ cho mọi thứ đơn giản: Đơn giản hơn thì tốt hơn
-`KISS: Keep It Simple Stupid`. 
-
-![1_WZmVF9vJAyn8tO1g3lVa9w-676x450](https://git.miagi-so.net/uploads/-/system/personal_snippet/22/beafa07fd1e802c3bc0d636bb337a796/1_WZmVF9vJAyn8tO1g3lVa9w-676x450.png)
-
-Giảm bớt sự phức tạp đến mức tối đa có thể.  
-Luôn đặt ra câu hỏi: Có cách nào khác đơn giản hơn để thực hiện việc này không?  
-
-`DRY: Don't Repeat Yourself`. 
-
-`YAGNI: You Aren't Gonna Need It`. 
-
-Always implement things when you actually need them, never when you just foresee that you need them. 
-
-*Cho thấy bạn thực sự thông minh bằng cách nói cho mọi người biết những gì họ cần làm một cách nhanh chóng và đơn giản – những người cố gắng phóng đại kiến ​​thức, kỹ năng của mình có thể mất rất nhiều thời gian. Khối lượng những gì bạn nói, viết hay làm ít quan trọng hơn giá trị bạn truyền đạt.*
-
-Design Principles vs Design Patterns
-
-### Quy tắc hướng đạo sinh: Luôn rời đi với khu cắm trại sạch hơn lúc bạn tìm thấy nó.
-
-Boy Scout Rule được phát biểu dưới nhiều dạng khác nhau như:
-- always leave the code you're editing a little better than you found it
-- always leave the code cleaner/better than you found it
-- Always check a module in cleaner than when you checked it out
-
-![93cab7fc-950a-4ea9-88ed-e504b4d43a95.webp](https://git.miagi-so.net/uploads/-/system/personal_snippet/22/d1423c2f7a3cab4206fb1e592e42257d/93cab7fc-950a-4ea9-88ed-e504b4d43a95.webp)
-
-### Luôn tìm nguồn gốc của vấn đề
-
-- Tập trung vào lỗi của hệ thống, không phải lỗi của cá nhân
-- Đi từ những nguyên nhân chuyên biệt về chuyên môn đến các nguyên nhân thông thường về quản lý
-- Đặt câu hỏi tại sao nhiều lân (5 Whys)
-- Phân tích và xác định những thay đổi trong qui trình có thể giúp giảm nguy cơ hoặc ngăn chặn sự cố tiếp tục xảy ra
