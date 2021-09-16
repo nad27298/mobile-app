@@ -27,7 +27,7 @@ Vì các native app có một cơ sở mã duy nhất và không dựa vào các
 #### Tính linh hoạt
 Ứng dụng native cung cấp khả năng truy cập nhanh các tiện ích thiết bị sẵn có như máy ảnh, GPS, lịch, micrô và các chức năng khác của điện thoại thông minh. Trong các ứng dụng native, không có bất kỳ hạn chế nào, mọi thứ đều có thể được thực hiện do công nghệ đã được cấp.
 
-#### Hiệu suất tối đa
+#### Hiệu năng tối đa
 Native App Development giúp phát triển các ứng dụng và được tối ưu hóa cho một nền tảng cụ thể để đảm bảo hiệu suất cao. Vì các native app được xây dựng cho một nền tảng cụ thể, được biên dịch bởi các API cốt lõi ngôn ngữ lập trình gốc, giúp các native app hiệu quả hơn và chạy nhanh hơn các ứng dụng còn lại.
 
 #### Bảo mật dữ liệu.
@@ -39,6 +39,7 @@ Các native app bảo mật tốt các dữ liệu cho người dùng.
 **iOS App Development:**
 - Swift
 - Objective-C
+
 **iOS App Development:**
 - Java
 - Kotlin
@@ -97,9 +98,55 @@ Các frameworks tiêu biểu để phát triển ứng dụng hybrid có thể k
 - NHS
 - Airbus Helicopters
 
+### Nhược điểm ứng dụng hybrid
 
-**ve App dễ dàng lên kho ứng dụng của hệ điều hành.
+#### Không có hỗ trợ ngoại tuyến
+Các ứng dụng hybrid không cung cấp hỗ trợ ngoại tuyến như các ứng dụng native. Người dùng cần đợi kết nối Internet để truy cập các chức năng của ứng dụng.
+
+#### Hệ điều hành không nhất quán
+Vì các ứng dụng hybrid được triển khai một mã duy nhất nên có những tính năng dành riêng cho một hệ điều hành cụ thể sẽ không hoạt động hoàn hảo trên các hệ thống khác, chẳng hạn như một số chức năng dành riêng cho Android có thể không hoạt động trên thiết bị iOS.
+
+#### Hiệu năng không cao
+Tốc độ chạy của Hybrid app không thực sự mượt mà. Vì vậy sẽ ảnh hưởng nhiều đến chất lượng trải nghiệm từ phía người dùng.
 
 
-- PHP: phpcsf
-- PHP: phpcs
+## Cross Platform App là gì?
+![](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/what-is-a-cross-platform-app.jpg)
+Cross platform hay Multi Platform là một nền tảng đa ứng dụng. Hiểu đơn giản hơn là chỉ với một bản code trung gian, bạn có thể phiên dịch và sử dụng nó trên nhiều nền tảng ứng dụng khác nhau, giúp bạn tiết kiệm được công sức và thời gian đáng kể.
+
+### Lợi ích của Cross Platform App
+![](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/benefits-of-cross-platform-apps.jpg)
+
+#### Thời gian phát triển nhanh, giảm chi phái triển
+Vì chỉ phải code 1 lần duy nhất, việc phát triển ứng dụng Cross Platform trở nên nhanh chóng từ đó chi phí để làm 1 app cross platform cũng giảm đáng kể.
+
+#### Dễ dàng bảo trì và mở rộng
+Việc phát triển Cross Platform App có yếu tố mạch lạc về kiến trúc giúp việc tra cứu, chỉnh sửa lỗi Ứng dụng cũng sẽ nhanh chóng hơn, tạo điều kiện cho việc bảo trì và mở rộng cũng sẽ đạt kết quả vượt trội. Điều này cho phép nhà phát thực hiện các dự án lớn, linh hoạt và hết sức đa dạng.
+
+#### Khả năng tái sử dụng cao: 
+Vì có thể sử dụng đa nền tảng nên các đoạn mã sẽ dễ dàng được tái sử dụng và chia sẻ cho các ứng dụng, phần mềm khác (nếu có) dù nó là cross platform hoặc không. Một trong những lợi ích lớn nhất mà việc phát triển cross platform app mang lại là khả năng tái sử dụng mã nguồn dễ dàng. Thay vì phát hành Native App cho mỗi nền tảng Mobile, Nhà phát triển Ứng dụng có thể tái sử dụng phần lớn mã nguồn và triển khai cùng một ứng dụng trên nhiều nền tảng khác nhau.
+
+### Cross Platform App Development Frameworks
+![](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/cross-platform-app-development-frameworks.jpg)
+Các frameworks nổi tiếng có thể kể đến như:
+- React Native
+- Xamarin
+- Flutter
+
+### Ví dụ về các cross platform app
+![](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/example-of-best-cross-platform-apps.jpg)
+- Insightly
+- Bloomberg
+- Reflectly
+- Skype
+- Slack
+
+### Nhược điểm của cross platform app
+
+#### Hạn chế khả năng khai thác thư viện
+Theo đánh giá của những lập trình viên chuyên nghiệp thì cross platform so với các ứng dụng khác vẫn không có khả năng khai thác thư viện của những nền tảng lớn như Android hoặc IOS dù nó tiết kiệm được chi phí và có tính lin hoạt cao.
+
+#### Độ tương tác với phần cứng thiết bị không cao
+Hiệu suất tương đối cao nhưng các vấn đề về tương thích phần cứng và độ trễ của các cross platform thì không phải là hiếm.
+
+
