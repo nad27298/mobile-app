@@ -1,6 +1,8 @@
 
 
-# Phân biệt giữa Native App, Cross Platform và Hybrid
+# Native vs Hybrid vs Cross Platform.
+
+![https://www.netsolutions.com/insights/wp-content/uploads/2021/07/native-vs-hybrid-vs-cross-platform-app-development-1.jpg](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/native-vs-hybrid-vs-cross-platform-app-development-1.jpg)
 
 
 Native App, Cross Platform và Hybrid App là 3 nền tảng công nghệ sở hữu nhiều ưu điểm tuyệt vời. Trở thành 3 loại apps được đánh giá cao để thiết kế trên nền tảng mobile. Tuy cùng phục vụ cho lĩnh vực di động nhưng giữa 3 ứng dụng này vẫn có sự khác biệt. Vậy điểm khác biệt đó là gì? Chúng ta hãy cùng đi sâu khám phá trong bài viết dưới đây.
