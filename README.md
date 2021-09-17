@@ -4,7 +4,7 @@
 
 ![](https://www.netsolutions.com/insights/wp-content/uploads/2021/07/native-vs-hybrid-vs-cross-platform-app-development-1.jpg)
 
-Native App, Cross Platform và Hybrid App là 3 nền tảng công nghệ sở hữu nhiều ưu điểm tuyệt vời. Trở thành 3 loại apps được đánh giá cao để thiết kế trên nền tảng mobile. Tuy cùng phục vụ cho lĩnh vực di động nhưng giữa 3 ứng dụng này vẫn có sự khác biệt. Vậy điểm khác biệt đó là gì? Chúng ta hãy cùng đi sâu khám phá trong bài viết dưới đây.
+Bất cứ khi nào công ty quyết định tạo ra một ứng dụng mobile, thì phải đối mặt với sự lựa chọn của Native App, Hybrid App và Cross Platform App, và điều quan trọng nhất là tìm kiếm những cách hiệu quả để thực hiện ý tưởng. Trong bài viết này, chúng ta sẽ tìm hiểu sự khác biệt giữa bộ ba Native App, Hybrid App, tìm hiểu ưu và nhược điểm của chúng và cách chúng ảnh hưởng đến quá trình phát triển chung và performance của ứng dụng. Chúng ta sẽ xem xét các công nghệ được sử dụng cho nền tảng iOS và Android trong bối cảnh phát triển Native App, Hybrid App và Cross Platform để bạn có thể chọn một công nghệ phù hợp nhất cho dự án của mình.
 
 ## Native App là gì?
 
@@ -148,5 +148,9 @@ Theo đánh giá của những lập trình viên chuyên nghiệp thì cross pl
 
 #### Độ tương tác với phần cứng thiết bị không cao
 Hiệu suất tương đối cao nhưng các vấn đề về tương thích phần cứng và độ trễ của các cross platform thì không phải là hiếm.
+
+
+## Tổng kết
+Native App, Cross Platform và Hybrid App là 3 nền tảng công nghệ sở hữu nhiều ưu điểm tuyệt vời. Hy vọng rằng bài viết này đã giúp mọi người tìm thấy sự khác biệt giữa Native App, Hybrid App và Cross Platform để việc lựa chọn đúng sẽ dễ dàng hơn cho mình. Mỗi loại có lợi ích rất cần thiết cho các dự án nhất định. Hơn nữa, mỗi người có thể chọn công nghệ bạn muốn xem xét khả năng phát triển của mình. Có tính đến tất cả các tiêu chí này, chúng ta có thể đưa ra kết luận rằng mỗi phương pháp phù hợp với một số trường hợp cụ thể. Nhiệm vụ của bạn sẽ là phác thảo những tiêu chí quan trọng nhất của riêng mình và đừng quên hỏi ý kiến các chuyên gia. Đây là cách tốt nhất để chọn vì mọi nhóm nhà phát triển đủ điều kiện lắng nghe bạn trước và chỉ sau này mới có thể tư vấn giải pháp.
 
 
