@@ -40,7 +40,7 @@ Các native app bảo mật tốt các dữ liệu cho người dùng.
 - Swift
 - Objective-C
 
-**iOS App Development:**
+**Android App Development:**
 - Java
 - Kotlin
 
